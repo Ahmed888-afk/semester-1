@@ -14,3 +14,12 @@
 
 # Download your file, and upload it to the 'Week 1 Session 2 - Practice Upload' task on Minerva.
 # You will get some feedback - ensure you are passing the tests!
+
+try:
+    first = int(input("Enter the first number: "))
+    second = int(input("Enter the second number: "))
+except ValueError:
+    print("That is not a number")
+    exit()
+
+print(first * second)
